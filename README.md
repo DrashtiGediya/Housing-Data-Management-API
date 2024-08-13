@@ -25,7 +25,9 @@ JSON Responses: All API responses are formatted in JSON, ensuring compatibility 
 
 # Usage Scenarios
 Real Estate Analysis: The API can be used by real estate professionals to analyze trends in housing prices across different locations.
+
 Data Management: Developers and data engineers can leverage the API to manage and query large datasets of housing sale prices.
+
 Market Insights: Investors and analysts can use the API to gain insights into the housing market by retrieving maximum, minimum, and average sale prices.
 
 # Prerequisites
@@ -46,7 +48,7 @@ Description: Returns the average sale price of all houses.
 Endpoint: GET /api/houses/avgLocation
 Description: Returns the average sale price per location.
 
-4.Get Maximum Sale Price
+ 4.Get Maximum Sale Price
 Endpoint: GET /api/houses/maxPrice
 Description: Returns the maximum sale price of houses.
 
