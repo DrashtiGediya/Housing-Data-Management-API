@@ -10,9 +10,13 @@ Data Ingestion: The API enables the ingestion of housing data from a JSON file (
 Statistical Queries: Users can query the database to retrieve key statistics about housing prices, including:
 
 Overall Average Sale Price: Compute the average sale price across all houses.
+
 Location-Based Average Sale Price: Calculate the average sale price of houses within specific locations.
+
 Maximum and Minimum Sale Prices: Identify the highest and lowest sale prices recorded.
+
 Average Price by Specific Location: Get the average sale price for houses in a user-specified location.
+
 SQL-Based Computation: All statistics are computed directly within the MySQL database using SQL queries, ensuring efficient and accurate data retrieval.
 
 Error Handling: The API is equipped with robust error handling mechanisms, providing clear and informative error messages, along with appropriate HTTP response codes to guide users in case of issues.
